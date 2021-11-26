@@ -1,0 +1,80 @@
+/* 
+    Created on : 25. 11. 2021, 21:42:27
+    Author     : Petty
+*/
+
+body {
+    font-family:  Book Antiqua, serif;
+    font-size: 1.2em;
+    font-weight: bold; 
+    /*background-image: radial-gradient(rgb(250,250,210)73%, rgba(139,69,19,0.5));*/
+    background-image: radial-gradient(circle, rgb(250,250,210)60%, rgba(139,69,19,0.5));
+    margin: 0px;
+   }
+   
+   h1 {
+  color: #8B4513; 
+  text-align: center; 
+  font-family: Book Antiqua, serif; 
+  font-weight: bold; 
+  font-style: italic;
+  text-shadow: 4px 4px 7px #A52A2A; 
+ 
+}
+
+p {
+    font-family:  Book Antiqua, serif; 
+}
+
+input[type="submit"] {
+    background: #FFFFE0;
+    color: brown;
+    font-family:  Book Antiqua, serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 3px solid #228B22;
+}
+
+input [type="submit"]:hover {
+    background: #E0FFFF;
+    color: #E0FFFF;
+    cursor: pointer;
+}
+
+input[type="text"] {
+    background: #FFFFE0;
+    width: 250px;
+    border-radius: 5px;
+    border:  3px solid #228B22;
+    padding: 0.3em;
+    font-family:  Book Antiqua;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+input[type="submit"] {
+    padding: 10px 25px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+
+textarea {
+    background: #FFFFE0;
+    border-radius: 5px;
+    border: 3px solid #228B22;
+    width: 483px;
+    height: 90px;
+    
+    font-size: 0.9em;
+}
+
+form {
+    font-family:  Book Antiqua, serif; 
+    font-size: 1.1em;
+    font-weight: bold;
+    color: brown;
+}
